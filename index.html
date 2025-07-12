@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dicee Game 🎲</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Roll. Win. Repeat</h1>
+
+      <!-- Player Name Input -->
+      <div class="player-inputs">
+        <input type="text" id="player1" placeholder="Enter Player 1 Name" />
+        <input type="text" id="player2" placeholder="Enter Player 2 Name" />
+        <button onclick="startGame()" class="start-btn">Start Game</button>
+      </div>
+
+      <!-- Dice Area -->
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png" />
+      </div>
+
+      <!-- Roll Button -->
+      <button onclick="rollDice()" class="roll-btn">Let’s Go!</button>
+    </div>
+
+    
+    <script src="index.js"></script>
+  </body>
+</html>
