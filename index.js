@@ -26,8 +26,8 @@ function rollDice() {
   const randomNumber1 = Math.floor(Math.random() * 6) + 1;
   const randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-  document.querySelector(".img1").setAttribute("src", dice${randomNumber1}.png`);
-  document.querySelector(".img2").setAttribute("src", dice${randomNumber2}.png`);
+  document.querySelector(".img1").setAttribute("src", `dice${randomNumber1}.png`);
+  document.querySelector(".img2").setAttribute("src", `dice${randomNumber2}.png`);
 
   const heading = document.getElementById("heading");
 
